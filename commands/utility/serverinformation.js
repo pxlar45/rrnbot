@@ -6,7 +6,7 @@ module.exports = {
         .setDefaultMemberPermissions(PermissionsBitField.Flags.Administrator)
         .setDescription('Gives Server Information'),
     async execute(interaction) {
-        const image = "https://media.discordapp.net/attachments/1261462831220658196/1288963563997892720/RRN_1.png?ex=66fe589d&is=66fd071d&hm=7dc4f53007e35e8fff708b1e0d853d350e9d759486cc91b4329c7abbbcdb6018&=&format=webp&quality=lossless";
+        const image = "https://media.discordapp.net/attachments/1261462831220658196/1295117350584188999/RRN_1.png?ex=670d7b86&is=670c2a06&hm=990e2a0685a3af629af5992ac4fa865bb2c06bd5d7f82726ae968995e91dc810&=&format=webp&quality=lossless";
 
         const embed1 = new EmbedBuilder()
             .setTitle('Server Information')
